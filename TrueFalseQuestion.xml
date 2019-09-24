@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Quizz>
+	<question type= 'multichoice'>
+		<name>
+			<text>Question vrai/faux</text>
+		</name>
+		<questiontext format="html">
+			<text>la bonne réponse est la reponse 1 </text>
+		</questiontext>
+		<penalty>1</penalty>
+		<defaultgrade>1</defaultgrade>
+		<answer fraction="100">
+			<text>vrai</text>
+			<feedback>
+				<text>Bravo !</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>Faux</text>
+			<feedback>
+				<text>Ooops!</text>
+			</feedback>
+		</answer>
+		<shuffleanswers>1</shuffleanswers>
+		<single>true</single>
+	</question>
+	<question type= 'multichoice'>
+		<name>
+			<text>Question vrai/faux 2</text>
+		</name>
+		<questiontext format="html">
+			<text>la bonne réponse est la reponse 2 </text>
+		</questiontext>
+		<penalty>1</penalty>
+		<defaultgrade>1</defaultgrade>
+		<answer fraction="100">
+			<text>Faux</text>
+			<feedback>
+				<text>Ooops!</text>
+			</feedback>
+		</answer>
+		<answer fraction="0">
+			<text>Vrai</text>
+			<feedback>
+				<text>Bravo !</text>
+			</feedback>
+		</answer>
+		<shuffleanswers>2</shuffleanswers>
+		<single>true</single>
+	</question>
+</Quizz>
